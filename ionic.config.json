@@ -1,0 +1,7 @@
+{
+  "name": "MusiSense",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
