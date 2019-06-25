@@ -7,7 +7,7 @@
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 5000,
-      "backgroundColor": "#28a745"
+      "backgroundColor": "#ffffffff"
     }
   }
 }
