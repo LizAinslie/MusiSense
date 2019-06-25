@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^1.1.0",
     "@capacitor/cli": "1.1.0",
     "@capacitor/core": "1.1.0",
     "@ionic/react": "0.0.5",

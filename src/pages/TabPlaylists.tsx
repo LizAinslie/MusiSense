@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonListHeader, IonLabel, IonItem, IonThumbnail, IonImg } from '@ionic/react';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonListHeader, IonLabel, IonItem, IonThumbnail, IonImg, IonButtons, IonIcon, IonButton } from '@ionic/react';
 import IAlbum from '../interfaces/IAlbum';
 
 class TabPlaylists extends React.Component {
@@ -59,6 +59,14 @@ class TabPlaylists extends React.Component {
                 </IonItem>
               )
             })}
+            <IonListHeader>
+              <IonLabel>Playlists</IonLabel>
+              <IonButtons>
+                <IonButton slot='icon-only'>
+                  <IonIcon name='add' />
+                </IonButton>
+              </IonButtons>
+            </IonListHeader>
           </IonList>
         </IonContent>
       </>
