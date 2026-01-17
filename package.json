@@ -4,14 +4,14 @@
   "private": true,
   "dependencies": {
     "@capacitor/android": "^1.1.0",
-    "@capacitor/cli": "1.1.0",
+    "@capacitor/cli": "1.5.3",
     "@capacitor/core": "1.1.0",
     "@ionic/react": "0.0.5",
     "react": "~16.8.6",
     "react-dom": "~16.8.6",
     "react-router": "~5.0.0",
     "react-router-dom": "~5.0.0",
-    "react-scripts": "~2.1.8",
+    "react-scripts": "~5.0.1",
     "typescript": "~3.4.3"
   },
   "devDependencies": {
